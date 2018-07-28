@@ -13,7 +13,16 @@
 #print len(li)
 
 4.	Remove all of the vowels in a string
+
+# sentence = 'List comprehensions Are one Of the unique features of python'
+# li = [letter for letter in sentence if letter.lower() not in ['a','e','i','o','u']]
+# print ''.join(li)
+
 5.	Find all of the words in a string that are less than 4 letters
+
+# sentence = 'List comprehensions Are one Of the unique features of python'
+# li = [word for word in sentence.split() if len(word)<4]
+# print li
 
 Challenge:
 6.	Use a dictionary comprehension to count the length of each word in a sentence.

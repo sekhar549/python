@@ -1,10 +1,17 @@
 1.	Find all of the numbers from 1-1000 that are divisible by 7
 
-list1 = [ number for number in range(7,1000) if number%7 == 0]
+#list1 = [ number for number in range(7,1000) if number%7 == 0]
 
 2.	Find all of the numbers from 1-1000 that have a 3 in them
 
+#li = [ num for num in range(1000) if '3' in str(num)]
+
 3.	Count the number of spaces in a string
+
+#sentence = 'Back to back comedy scenes of AVS _ _ _'
+#li = [letter for letter in sentence if letter == ' ']
+#print len(li)
+
 4.	Remove all of the vowels in a string
 5.	Find all of the words in a string that are less than 4 letters
 

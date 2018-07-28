@@ -1,0 +1,2 @@
+# think-pythonic
+python learning 

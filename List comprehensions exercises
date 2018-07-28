@@ -1,0 +1,16 @@
+1.	Find all of the numbers from 1-1000 that are divisible by 7
+2.	Find all of the numbers from 1-1000 that have a 3 in them
+3.	Count the number of spaces in a string
+4.	Remove all of the vowels in a string
+5.	Find all of the words in a string that are less than 4 letters
+
+Challenge:
+6.	Use a dictionary comprehension to count the length of each word in a sentence.
+7.	Use a nested list comprehension to find all of the numbers from 1-1000 that are divisible by any single digit besides 1 (2-9)
+8.	For all the numbers 1-1000, use a nested list/dictionary comprehension to find the highest single digit any of the numbers is divisible by
+9.	A list of all consonants in the sentence 'The quick brown fox jumped over the lazy dog'
+10.	A list of all the capital letters (and not white space) in 'The Quick Brown Fox Jumped Over The Lazy Dog'
+11.	A list of all square numbers formed by squaring the numbers from 1 to 1000.
+12.	return a list of the full path to items in a directory (hint, use os.listdir() and os.path.join())
+13.	now extend this same one to exclude directories (hint, use os.path.isdir())
+14.	now extend it further to filter to only files ending in .jpg and .png

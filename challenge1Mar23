@@ -1,0 +1,18 @@
+def nthTerm(A, B, n):
+	a = len(str(A))
+	b = len(str(B))
+	x = 1
+	y = 1
+	count = 3
+	while(True):
+		if( a*x + b*y < n ):
+			total = x+ y
+			x = y
+			y = total
+			count+=1
+		else:
+			break
+	return count
+  
+  
+  
